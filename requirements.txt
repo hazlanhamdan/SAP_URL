@@ -1,5 +1,5 @@
 streamlit
-pyshorteners==1.0.1
+pyshorteners
 pandas
 win32
 time
