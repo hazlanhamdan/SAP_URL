@@ -1,7 +1,6 @@
 streamlit
 pyshorteners
 pandas
-time
 datetime
 pywinauto
 pynput
