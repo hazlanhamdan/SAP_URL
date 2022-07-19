@@ -1,7 +1,7 @@
 streamlit
 pyshorteners
 pandas
-win32
+pywin32
 time
 datetime
 pywinauto
