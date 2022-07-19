@@ -5,4 +5,4 @@ datetime
 pywinauto
 pynput
 tk
-pywin32==304
+pywin32
