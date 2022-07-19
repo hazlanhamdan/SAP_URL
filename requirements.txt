@@ -4,5 +4,5 @@ pandas
 datetime
 pywinauto
 pynput
-tkinter
+Tkinter
 pywin32==304
