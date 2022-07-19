@@ -1,9 +1,0 @@
-streamlit
-pyshorteners==1.0.1
-pandas
-win32
-time
-datetime
-pywinauto
-pynput
-tkinter
