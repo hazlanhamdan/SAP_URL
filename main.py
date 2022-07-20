@@ -27,12 +27,10 @@ import base64
 import re
 import streamlit as st
 
-dirname = st.text_input('Enter a folder path:')
-try:
-    with open(dirname) as input:
-        st.text(input.read())
-except FileNotFoundError:
-    st.error('File not found.')
+#dirname = st.text_input('Enter a folder path:')
+dirname = r'D:\Users\mhazlan.hamdan\MISC Group\EagleStar Finance - COPY OF INVOICES\2022\07. JUL 2022'
+
+
 filelist=[]
 es=[]
 td_date = time.strftime("%d-%b-%Y")
