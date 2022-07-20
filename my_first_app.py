@@ -127,7 +127,8 @@ for il in top_windows:
         time.sleep(1)
         keyboard.press(Key.enter)
 
-
+'''
+"""
 class WindowMgr:
     '''Encapsulates some calls to the winapi for window management'''
 
@@ -216,4 +217,4 @@ with keyboard.pressed(Key.shift):
 time.sleep(1)
 keyboard.press(Key.enter)
 time.sleep(1)
-'''
+"""
