@@ -28,7 +28,11 @@ import re
 import streamlit as st
 
 dirname = st.text_input('Enter a folder path:')
-
+try:
+    with open(dirname) as input:
+        st.text(input.read())
+except FileNotFoundError:
+    st.error('File not found.')
 filelist=[]
 es=[]
 td_date = time.strftime("%d-%b-%Y")
