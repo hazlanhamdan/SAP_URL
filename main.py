@@ -7,7 +7,7 @@ import pyshorteners as sh
 import pandas as pd
 import time
 from datetime import datetime
-
+'''
 import win32gui
 import win32process
 import win32api
@@ -22,7 +22,7 @@ mouse = Controller()
 
 from pynput.keyboard import Key, Controller
 keyboard = Controller()
-
+'''
 import base64
 import re
 import streamlit as st
@@ -60,6 +60,7 @@ st.write('Data extract successfully')
 cwd = os.getcwd()
 file_dir = cwd + "\\" + excel_name
 #print(file_dir)
+"""
 sys.exit()
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
@@ -192,3 +193,4 @@ with keyboard.pressed(Key.shift):
 time.sleep(1)
 keyboard.press(Key.enter)
 time.sleep(1)
+"""
