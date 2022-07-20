@@ -26,6 +26,8 @@ es=[]
 td_date = time.strftime("%d-%b-%Y")
 url = "https://miscbhd.sharepoint.com/:b:/r/sites/ES-FIN/Shared Documents/14 AR & Treasury/COPY OF INVOICES/"
 for root, dirs, files in os.walk(path):
+      st.write("yes")
+      st.write(root)
       for file in files:
              filename=os.path.join(root, file)
              filelist.append(filename)
