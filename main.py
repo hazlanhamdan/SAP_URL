@@ -51,6 +51,7 @@ st.write(filelist)
 st.write(es)
 
 df = pd.DataFrame(es)
+"""
 df.columns = ['Company code','Document no','Fiscal year','URL Name','URL']
 excel_name = 'ZFI_UPLOAD_URL '+month+' '+ td_date + '.xlsx'
 df.to_excel(excel_name, index=False)
@@ -60,7 +61,7 @@ st.write('Data extract successfully')
 cwd = os.getcwd()
 file_dir = cwd + "\\" + excel_name
 #print(file_dir)
-"""
+
 sys.exit()
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
