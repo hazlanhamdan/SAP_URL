@@ -20,11 +20,12 @@ from pathlib import Path
 
 dirname = r'D:\Users\mhazlan.hamdan\MISC Group\EagleStar Finance - COPY OF INVOICES\2022\07. JUL 2022'
 path = Path(dirname)
-st.write(path)
+
 filelist=[]
 es=[]
 td_date = time.strftime("%d-%b-%Y")
 url = "https://miscbhd.sharepoint.com/:b:/r/sites/ES-FIN/Shared Documents/14 AR & Treasury/COPY OF INVOICES/"
+st.write(path)
 for root, dirs, files in os.walk(path):
       st.write("yes")
       st.write(root)
