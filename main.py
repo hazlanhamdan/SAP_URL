@@ -29,10 +29,10 @@ for root, dirs, files in os.walk(path):
       for file in files:
              filename=os.path.join(root, file)
              filelist.append(filename)
-             #st.write(root)
+             st.write(root)
              mon = root.split("\\")[-2]
              com = root.split("\\")[-1]
-             #st.write(mon)
+             st.write(mon)
              month = mon.split('\\')[0]
              full_url = url +file[14:18]+"/"+ mon +"/"+com+"/"+ file
              link = full_url.replace('%','%25').replace('&','%26').replace(' ','%20')
