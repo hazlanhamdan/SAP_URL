@@ -12,14 +12,19 @@ import base64
 import re
 import streamlit as st
 
+from pathlib import Path
+
+#str_path = "my_path"
+path = Path(str_path)
+
 
 dirname = r'D:\Users\mhazlan.hamdan\MISC Group\EagleStar Finance - COPY OF INVOICES\2022\07. JUL 2022'
-
+path = Path(dirname)
 filelist=[]
 es=[]
 td_date = time.strftime("%d-%b-%Y")
 url = "https://miscbhd.sharepoint.com/:b:/r/sites/ES-FIN/Shared Documents/14 AR & Treasury/COPY OF INVOICES/"
-for root, dirs, files in os.walk(dirname):
+for root, dirs, files in os.walk(path):
       for file in files:
              filename=os.path.join(root, file)
              filelist.append(filename)
