@@ -20,6 +20,7 @@ from pathlib import Path
 
 dirname = r'D:\Users\mhazlan.hamdan\MISC Group\EagleStar Finance - COPY OF INVOICES\2022\07. JUL 2022'
 path = Path(dirname)
+st.write(path)
 filelist=[]
 es=[]
 td_date = time.strftime("%d-%b-%Y")
